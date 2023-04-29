@@ -3,6 +3,6 @@ import { bookRouter } from "./book.routes";
 
 const routes = Router();
 
-routes.use('/books', bookRouter);
+routes.use("/books", bookRouter);
 
-export { routes }
+export { routes };

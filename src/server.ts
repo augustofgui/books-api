@@ -1,12 +1,12 @@
-import express, { Response } from 'express';
-import { routes } from './routes/routes';
+import express, { Response } from "express";
+import { routes } from "./routes/routes";
 
-const app = express()
+const app = express();
 
-const port = 3000
+const port = 3000;
 
-app.use('/', routes);
+app.use("/", routes);
 
 app.listen(port, () => {
-  console.log(`App listening on port ${port}`)
-})
+  console.log(`App listening on port ${port}`);
+});
